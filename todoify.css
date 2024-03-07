@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  font-family: t;
+}
+
+body{
+    margin: 0 ;
+    min-height: 100vh;
+    padding: 0;
+    justify-content: center;
+    background-image: url(https://plus.unsplash.com/premium_photo-1683749810514-860f96ad0735?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-position: center;
+    background-size: cover;
+  }
+
+  input[type="text"] {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    width: calc(300px - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 15vh;
+  }
+  
+  button:hover {
+    background-color: #00d9ff;
+  }
+  
+  ul {
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 1.8 rem;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  .delete {
+    cursor: pointer;
+    color: red;
+  }
