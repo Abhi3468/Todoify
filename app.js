@@ -1,3 +1,4 @@
+// Todoify
 document.getElementById("addTask").addEventListener("click", function() {
     var taskInput = document.getElementById("taskInput");
     var taskList = document.getElementById("taskList");
